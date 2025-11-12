@@ -3,7 +3,7 @@ terraform {
 
   # Local backend just to keep state locally for now
   backend "local" {
-    path = "./terraform.tfstate"
+    path = "C:/terraform-results/terraform.tfstate"
   }
 }
 
