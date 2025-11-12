@@ -10,7 +10,7 @@ terraform {
 # A dummy local resource — purely for testing Terraform flow
 resource "local_file" "test_output" {
   content  = "Terraform test run successful!"
-  filename = "${path.module}/test_output.txt"
+  filename = "C:/terraform-results/test_output.txt"
 }
 
 output "file_path" {
